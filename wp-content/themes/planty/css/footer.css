@@ -1,0 +1,15 @@
+/****************** FOOTER *****************/
+#site-footer {
+    border: none;
+    margin:0;
+    padding:0;
+}
+
+.footer-top-hidden #site-footer {
+        margin: 20px;
+}
+
+#site-footer a {
+    display: block;
+    margin: 0 auto;
+}

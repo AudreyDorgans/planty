@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Libre+Baskerville:wght@400;700');
+
+:root {
+  --background:#FAE6D3;
+  --pink: #DC9F96;
+  --green: #3B8E46;
+  --fushia: #C02E44;
+  --call-action :#D2776A;
+  --main-police : 'Syne', sans-serif;
+}
+
+body {
+    font-family: 'Syne', sans-serif;
+    color:black;
+    margin:0;
+    padding:0;
+    font-size:16px;
+}
+
+.entry-content, .entry-content h1, .entry-content h2, .entry-content p, figcaption {
+      font-family: 'Syne', sans-serif;
+}
+
+a {
+  color:black !important;
+  text-decoration: none !important;
+}
+
+
+/****************** PAGE ACCUEIL *****************/
+
+.singular .entry-header {
+  margin:0;
+  padding:0;
+}
+
+.container-accueil-img {
+  background-color: var(--background);
+}
+
+.post-11 .entry-header-inner h1{
+  color:var(--green);
+  text-transform: uppercase;
+  font-size: 38px;
+  background-color: var(--background);
+  padding-top:105px;
+}
+
+.entry-content>.alignfull:not(.wp-block-group.has-background){
+  margin: 0 !important;
+}
+
+.accueil-section1 {
+  margin-bottom : 0!important;
+}
+
+.accueil-section1 p {
+  margin-bottom: 82px;
+}
+
+.accueil-section1 h2 {
+  color:var(--green);
+  margin:58px auto;
+}
+
+.accueil-section2 {
+  background-color: var(--background);
+}
+
+.accueil-section2 h2 {
+margin: 58px 0px 7px 0;
+color:var(--call-action);
+text-transform: uppercase;
+font-weight:800;
+}
+
+.accueil-section2 p {
+ margin-bottom : 49px;
+}
+
+.accueil-section2 .wp-block-uagb-container.uagb-block-36b060ac{
+  padding:0;
+  margin :0;
+  flex-wrap: wrap;
+}
+
+.accueil-section2 .bouton-action{
+  width: 198px;
+  height:55px;
+  margin:47px 0 38px 0;
+}
+
+.wp-block-uagb-container.uagb-block-a01d9104 {
+  padding-top : 133px;
+}
+
+.accueil-section3 {
+  margin-bottom :0;
+}
+
+.accueil-section3 h2 {
+  margin:0;
+  text-transform: uppercase;
+  color:var(--green);
+  font-weight:800;
+}
+
+.accueil-section3 .testimonial-titre {
+  font-size:30px;
+  color:var(--green);
+  margin-bottom:11px;
+  font-family: var(--main-police);
+}
+
+.accueil-section3 .testimonial-p {
+  font-size:16px;
+}
+
+
+
+

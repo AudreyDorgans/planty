@@ -124,3 +124,31 @@ font-weight:800;
 
 
 
+
+/****************** PAGE NOUS RENCONTRER *****************/
+
+.post-13 .entry-header-inner h1 {
+  color: var(--call-action);
+  text-transform: uppercase;
+  font-size: 38px;
+  font-weight:800;
+  background-color: var(--background);
+  padding-top: 186px;
+  padding-bottom: 27px;
+}
+
+.rencontrer-section1 {
+  background-color: var(--background);
+  border-radius: 0 0 45% 45% / 0 0 12% 12%;
+}
+
+.post-13 .rencontrer-section1 .wp-block-image {
+  position : absolute;
+  bottom: 95%;
+  left:5%;
+  margin:0;
+}
+
+.post-13 .rencontrer-section1 .uagb-container-inner-blocks-wrap {
+
+}

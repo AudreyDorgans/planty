@@ -37,6 +37,9 @@ a {
 
 .container-accueil-img {
   background-color: var(--background);
+  border-radius: 0 0 45% 45% / 0 0 12% 12%;
+  border-bottom : 15px solid; 
+  border-color:#e3d9d2 !important;
 }
 
 .post-11 .entry-header-inner h1{
@@ -66,6 +69,7 @@ a {
 
 .accueil-section2 {
   background-color: var(--background);
+  border-radius: 0 0 45% 45% / 0 0 5% 5%;
 }
 
 .accueil-section2 h2 {

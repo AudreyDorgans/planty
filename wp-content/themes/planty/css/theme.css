@@ -149,6 +149,101 @@ font-weight:800;
   margin:0;
 }
 
-.post-13 .rencontrer-section1 .uagb-container-inner-blocks-wrap {
+.post-13 .rencontrer-section2 {
+  padding: 66px 0 81px 0;
+}
 
+.post-13 .rencontrer-section2 .wp-block-heading {
+  margin:0;
+  padding-bottom:45px;
+  font-size:30px;
+}
+
+.post-13 .rencontrer-section2 .image-plante {
+  position : absolute;
+  top:45%;
+  left:53%;
+  max-width:191px;
+  height:219px;
+}
+
+.rencontrer-section2 .wp-block-columns .wp-block-heading {
+  margin :0;
+  padding : 27px 0 11px 0;
+  font-size:20px;
+  font-family: var(--main-police);
+  font-weight:700;
+}
+
+.rencontrer-section2 .wp-block-image {
+  margin:0 !important;
+  height:0 !important;
+}
+
+.rencontrer-section2 .colonnes-images .wp-block-image {
+  height:167px !important;
+}
+
+.rencontrer-section2 .wp-block-columns:not(.alignwide):not(.alignfull) {
+  margin:0;
+}
+
+.rencontrer-section3 {
+  background-color: var(--background);
+}
+
+.rencontrer-section3 h2 {
+  font-size:30px;
+}
+
+.rencontrer-section3 .wp-block-image {
+  height:0;
+}
+
+.rencontrer-section3 .wp-block-image img {
+  width: 147px;
+  height:135px;
+  position :absolute;
+  top: 10%;
+  left:20%;
+}
+
+.rencontrer-section3 #nf-field-5, .rencontrer-section3 #nf-field-6, .rencontrer-section3 #nf-field-7, .rencontrer-section3 #nf-field-7 .nf-field-label {
+  font-size: 20px;
+  font-weight:400;
+  color:black;
+}
+
+.rencontrer-section3 #nf-form-2-cont {
+  width:400px;
+}
+
+.rencontrer-section3 .nf-form-fields-required{
+  display: none;
+}
+
+.rencontrer-section3 .ninja-forms-field , .rencontrer-section3 #nf-field-5, .rencontrer-section3 #nf-field-6 {
+  border:none;
+  border-radius:7px;
+}
+
+.rencontrer-section3 #nf-field-8 {
+  width:198px;
+  height:55px;
+  padding:9px 0;
+  background-color: var(--pink);
+  display: block;
+  margin : 0 auto;
+  border-radius: 5px;
+}
+
+.rencontrer-section3   input[type="submit"]{
+  text-transform: none;
+}
+
+
+.rencontrer-section3 #nf-field-8:hover{
+  background-color: var(--fushia);
+  text-decoration: none;
+  color:white;
 }

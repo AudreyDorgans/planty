@@ -41,7 +41,7 @@
 						<?php
 							// Site title or logo.
 							twentytwenty_site_logo();
-							twentytwenty_site_description();
+							//twentytwenty_site_description();
 						?>
 
 					</div><!-- .header-titles -->

@@ -144,9 +144,10 @@ font-weight:800;
 
 .post-13 .rencontrer-section1 .wp-block-image {
   position : absolute;
-  bottom: 95%;
-  left:5%;
+  top: -160%;
+  left:7%;
   margin:0;
+  height:0;
 }
 
 .post-13 .rencontrer-section2 {
@@ -159,12 +160,13 @@ font-weight:800;
   font-size:30px;
 }
 
-.post-13 .rencontrer-section2 .image-plante {
+.post-13 .rencontrer-section2 #image-plante {
   position : absolute;
-  top:45%;
-  left:53%;
+  top:60%;
+  right:-13%;
   max-width:191px;
   height:219px;
+  margin:0;
 }
 
 .rencontrer-section2 .wp-block-columns .wp-block-heading {
@@ -175,8 +177,12 @@ font-weight:800;
   font-weight:700;
 }
 
-.rencontrer-section2 .colonnes-images .wp-block-image {
+.rencontrer-section2 .wp-block-image .image-equipe{
   height:167px !important;
+}
+
+.wp-block-image:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.aligncenter) {
+  margin:0;
 }
 
 .rencontrer-section2 .wp-block-columns:not(.alignwide):not(.alignfull) {

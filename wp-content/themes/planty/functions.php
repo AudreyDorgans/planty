@@ -46,7 +46,7 @@ function ajouter_lien_admin_menu_nav($items, $args) {
     if (is_user_logged_in() && $args->theme_location === 'primary') {
         // récup du lien du tableau de bord / esc_url() / sécurité intégrée à WordPress pour échapper l'URL
         $admin_link = admin_url();
-        $admin_menu_item = '<li class="menu-item menu-item-admin"><a href="' . esc_url($admin_link) . '">Admin</a></li>';
+        $admin_menu_item = '<li class="menu-item menu-item-admin"><a href="' . esc_url($admin_link) . '">Admin</a>';
 
         // transformation de la chaîne de caractères $items en tableau
         $items_array = preg_split('/<\/li>/', $items);

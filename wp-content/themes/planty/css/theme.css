@@ -152,8 +152,8 @@ font-weight:800;
 
 .post-13 .rencontrer-section1 .wp-block-image {
   position : absolute;
-  top: -160%;
-  left:7%;
+  top: -220%;
+  left:5%;
   margin:0;
   height:0;
 }
@@ -261,7 +261,7 @@ font-weight:800;
   border-radius: 5px;
 }
 
-.rencontrer-section3   input[type="submit"]{
+.rencontrer-section3 input[type="submit"]{
   text-transform: none;
 }
 
@@ -271,7 +271,7 @@ font-weight:800;
   color:white;
 }
 
-.rencontrer-section3 wp-block-uagb-container.uagb-block-542899c9 {
+.rencontrer-section3 .wp-block-uagb-container .uagb-block-542899c9 {
   padding:0;
   background-color: var(--background);
 }

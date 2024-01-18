@@ -1,0 +1,150 @@
+
+/* point de rupture spécifique pour comportement de la barre de nav*/
+@media (max-width: 1165px) {
+    /*HEADER*/
+   
+    .header-titles .site-logo {
+        margin: 6px 0 0 30px;
+    }
+
+    .site-logo img {
+        width: 50%;
+        height: 50%;
+    }
+
+    .header-navigation-wrapper {
+        min-width: 60%;
+    }
+}
+
+/* point de rupture spécifique pour comportement du menu mobile*/
+@media (max-width: 999px) {
+
+    .header-titles .site-logo {
+        margin: 20px 0 0 20px;
+    }
+
+    .menu-item {
+        font-size: 22px !important;
+        padding-left: 16px !important;
+    }
+
+    .menu-item-admin a {
+        font-size: 22px !important;
+        font-weight: 700 !important;
+        letter-spacing: -0.0375em !important;
+        margin-left: 0px !important;
+    }
+}
+
+/* point de rupture spécifique pour comportement formulaire titre page commander */
+@media (max-width: 1165px) { 
+
+    .post-15 .entry-header-inner h1 {
+        font-size: 30px;
+        padding:50px 0 40px 0;
+    }
+
+    .post-15 .titre-commande {
+        text-align: center;
+    }
+
+    .row1-form {
+        justify-content: space-around;
+    }
+
+    .row2-col1, .row2-col2 {
+        width: 100%;
+    }
+    
+    .row2-col1 {
+        border-right: none;
+        border-bottom: 1px solid white;
+        margin-bottom: 0;
+    }
+}
+
+/******************* RESPONSIVE TABLETTE *********************/
+
+@media (max-width: 1024px) {
+
+
+    /*PAGE ACCUEIL*/
+
+    .uagb-block-c55ef7db .spectra-image-gallery__media-thumbnail-caption {
+       font-size:28px;
+    }
+
+    .accueil-section3 .testimonial-titre {
+        font-size: 24px;
+    }
+   
+    /*PAGE NOUS RENCONTRER*/
+
+    .post-13 .rencontrer-section1 .wp-block-image {
+        top: -230%;
+        left: 4%;
+    }
+
+    .post-13 .rencontrer-section2 #image-plante {
+        top: 60%;
+        right: -3%;
+        z-index:0;
+    }
+
+    .colonnes-images {
+        z-index:1;
+    }
+
+    .rencontrer-section3 .wp-block-image {
+        bottom: 30%;
+        left: 25%;
+    }
+}
+
+
+/******************* RESPONSIVE MOBILE *********************/
+
+
+@media (max-width: 768px) { 
+
+    /*PAGE ACCUEIL*/
+
+    .post-11 .entry-header-inner h1 {
+        font-size: 30px;
+    }
+
+    /*PAGE NOUS RENCONTRER*/
+
+    .post-13 .entry-header-inner h1 {
+        font-size: 26px;
+        padding-top: 160px;
+        position:relative;
+    }
+
+    .post-13 .rencontrer-section1 .wp-block-image {
+        top:-300%;
+        left: -7%;
+    }
+
+    .post-13 .rencontrer-section2 #image-plante {
+        top: 87%;
+        right: -5%;
+    }
+      
+    .rencontrer-section3 .wp-block-image {
+        bottom: 30%;
+        left: 5%;
+    }
+
+    #nf-error-7 {
+        margin-bottom:40px;
+    }
+
+    .rencontrer-section3 .nf-field {
+        width:80%;
+        margin:0 auto;
+    }
+
+}
+

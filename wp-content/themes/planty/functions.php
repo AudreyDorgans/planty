@@ -52,22 +52,8 @@ function ajouter_lien_admin_menu($items) {
 
         $items_array = preg_split('/<\/li>/', $items);
 
-        // le tableau est donc constitué en clé 0 de la valeur nous rencontrer et en clé 1 de la valeur commander
-     
-        /* J'utilise ensuite la fonction PHP array_splice qui efface et remplace une portion de tableau  
-        
-        array_splice(array &$array, int $offset, ?int $length = null, mixed $replacement = []): array
-
-        La documentation précise que si length est fourni et vaut zéro, alors aucun élément sera supprimé.
-        
-        offset : Si offset est positif, le début de la section à supprimer sera à cette position en partant du début du tableau array.
-        */
-
         array_splice($items_array, 1, 0, $admin_menu_item);
 
-       
-
-        // Convertit de nouveau le tableau en chaîne de caractères
         $items = implode('</li>', $items_array);
 
     }

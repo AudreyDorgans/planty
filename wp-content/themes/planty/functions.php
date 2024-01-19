@@ -41,31 +41,38 @@ function banniere_image_func($atts)
 
 /* HOOK ADMIN */
 
-function ajouter_lien_admin_menu_nav($items, $args) {
-    // Verif si user connecté ou non
-    if (is_user_logged_in() && $args->theme_location === 'primary') {
-        // récup du lien du tableau de bord / esc_url() / sécurité intégrée à WordPress pour échapper l'URL
+
+function ajouter_lien_admin_menu($items) {
+
+    if (is_user_logged_in()) {
+
         $admin_link = admin_url();
+
         $admin_menu_item = '<li class="menu-item menu-item-admin"><a href="' . esc_url($admin_link) . '">Admin</a>';
 
-        // transformation de la chaîne de caractères $items en tableau
         $items_array = preg_split('/<\/li>/', $items);
 
-        // trouve l'index du deuxième élément dans le menu, soit la clé 1
-        $second_menu_item_index = 1;
+        // le tableau est donc constitué en clé 0 de la valeur nous rencontrer et en clé 1 de la valeur commander
+     
+        /* J'utilise ensuite la fonction PHP array_splice qui efface et remplace une portion de tableau  
+        
+        array_splice(array &$array, int $offset, ?int $length = null, mixed $replacement = []): array
 
-        /* $items_array: Le tableau sur lequel l'opération doit être effectuée.
-        $second_menu_item_index: L'indice (position) à partir duquel les éléments seront insérés ou supprimés.
-        0: Le nombre d'éléments à supprimer à partir de l'indice spécifié. Dans ce cas, insertion des éléments sans en supprimer, donc 0.
-        $admin_menu_item: Les éléments à insérer dans le tableau.*/
+        La documentation précise que si length est fourni et vaut zéro, alors aucun élément sera supprimé.
+        
+        offset : Si offset est positif, le début de la section à supprimer sera à cette position en partant du début du tableau array.
+        */
 
-        array_splice($items_array, $second_menu_item_index, 0, $admin_menu_item);
+        array_splice($items_array, 1, 0, $admin_menu_item);
+
+       
 
         // Convertit de nouveau le tableau en chaîne de caractères
         $items = implode('</li>', $items_array);
+
     }
 
     return $items;
 }
 
-add_filter('wp_nav_menu_items', 'ajouter_lien_admin_menu_nav', 10, 2);
+add_filter('wp_nav_menu_items', 'ajouter_lien_admin_menu', 10,1);
